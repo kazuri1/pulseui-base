@@ -1,27 +1,6 @@
 {
-  "buildCommand": "npm run build:vite",
-  "outputDirectory": "dist",
+  "buildCommand": "npm run build-storybook",
+  "outputDirectory": "storybook-static",
   "installCommand": "npm install",
-  "framework": null,
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Frame-Options",
-          "value": "DENY"
-        },
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        }
-      ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/((?!api/).*)",
-      "destination": "/index.html"
-    }
-  ]
+  "framework": null
 }
