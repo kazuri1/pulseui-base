@@ -1,7 +1,4 @@
-# Storybook files - exclude from main app deployment
-**/*.stories.*
-**/*.story.*
-storybook-static/
+
 
 # Development files
 node_modules
