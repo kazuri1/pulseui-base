@@ -59,7 +59,7 @@
     "prepublishOnly": "npm run build",
     "type-check": "tsc --noEmit",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "build-storybook": "storybook build -c .storybook",
     "preview": "vite preview",
     "pack:preview": "npm pack --dry-run",
     "pack:check": "npm pack && tar -tf *.tgz",
