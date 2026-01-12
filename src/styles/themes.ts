@@ -90,7 +90,7 @@ export const defaultLightTheme: Theme = {
     "cyan-9": "#087285",
     "orange-0": "#fff4e6",
     "orange-1": "#ffe8cc",
-    "orange-2": "#ffdbA8",
+    "orange-2": "#ffdba8",
     "orange-3": "#ffc078",
     "orange-4": "#ffa94d",
     "orange-5": "#ff922b",
