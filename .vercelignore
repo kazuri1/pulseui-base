@@ -1,7 +1,6 @@
 # Storybook files - exclude from main app deployment
 **/*.stories.*
 **/*.story.*
-.storybook/
 storybook-static/
 
 # Development files
