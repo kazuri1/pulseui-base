@@ -2,7 +2,7 @@
 
 .menu {
   position: fixed; // Use fixed positioning to appear outside component boundaries
-  background: var(--color-surface-0);
+  background: var(--color-surface, var(--color-surface-0, #ffffff));
   border-radius: var(--radius-lg);
   box-shadow: 0 4px 20px var(--color-shadow);
   border: 1px solid var(--color-border-primary);

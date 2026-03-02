@@ -12,8 +12,11 @@
       "import": "./dist/index.esm.js",
       "require": "./dist/index.js"
     },
+    "./dist/pulseui-base.css": {
+      "import": "./dist/pulseui-base.css",
+      "require": "./dist/pulseui-base.css"
+    },
     "./styles": {
-      "types": "./types/styles.d.ts",
       "import": "./dist/pulseui-base.css",
       "require": "./dist/pulseui-base.css"
     },
